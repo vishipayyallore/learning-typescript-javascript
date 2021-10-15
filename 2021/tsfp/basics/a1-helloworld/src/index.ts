@@ -1,6 +1,13 @@
 
-let greetings: string = 'Hello World !!';
-console.log(`Message: ${greetings}`);
+const displayMessage = (message: string) => {
+    console.log(`[${new Date()}] :: Message: ${message}`);
+};
 
-greetings = ' Happy to code !';
-console.log(`Message: ${greetings}`);
+let greetings: string = 'Hello World !!';
+displayMessage(greetings);
+
+greetings = 'Happy to code !';
+displayMessage(greetings);
+
+// console.log(`[${new Date()}] :: Message: ${greetings}`);
+// console.log(`Message: ${greetings}`);
