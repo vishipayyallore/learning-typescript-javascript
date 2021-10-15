@@ -1,7 +1,7 @@
 {
-    "name": "a2-primitive-types",
+    "name": "a3-instance-types",
     "version": "1.0.0",
-    "description": "",
+    "description": "Instance types Demo",
     "main": "index.js",
     "scripts": {
         "build": "tsc",

@@ -1,7 +1,7 @@
 {
-    "name": "a2-primitive-types",
+    "name": "a4-arrays-tuples",
     "version": "1.0.0",
-    "description": "",
+    "description": "Arrays and Tuples Demo",
     "main": "index.js",
     "scripts": {
         "build": "tsc",
